@@ -18,3 +18,5 @@ yarn-error.log
 /.vscode
 /data/
 /.phpunit.cache
+
+composer.lock
