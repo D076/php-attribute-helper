@@ -1,0 +1,28 @@
+{
+    "name": "d076/php-attribute-helper",
+    "description": "Small helper for manage your attributes with reflection api in Laravel projects",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry Titov",
+            "email": "dezmond076@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^10.0"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "D076\\PhpAttributeHelper\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {}
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
